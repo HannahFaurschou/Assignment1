@@ -20,7 +20,7 @@ This repository contains the first mandatory assignment (MA1) for AIML25. It con
 
 * **Helper code**: You are given a lot of boilerplate code as functions in `/src` to be imported into each of the notebooks. This is to simplify the assignments. Please acquaint yourself with this "helper code".
 
-* **Guides**: Each of the sub-assignments have a corresponding *guide notebook*. Everything needed to complete the assignments are in the notebooks. The guide notebooks are there to help you understand and practice the concepts. Please refer to the table below:
+* **Guides**: Each of the sub-assignments have a corresponding *guide notebook*. Everything needed to complete the assignments is in the notebooks. The guide notebooks are there to help you understand and practice the concepts. Please refer to the table below:
 
 | Assignment | Assignment notebook | Guide notebook | Description |
 | --- | --- | --- | --- |
@@ -30,7 +30,7 @@ This repository contains the first mandatory assignment (MA1) for AIML25. It con
 **Please see due dates and other relevant information in the assignment description on Canvas.**
 
 ## Getting started
-Please see sections VII - XI in the `Development setup guide` document on Canvas for instructions. To iterate, you need to:
+Please see the relevant sections in the `Development setup guide` document on Canvas for instructions. To reiterate, you need to:
 
 1. Fork this repository to your own GitHub account.
 2. Clone the forked repository to your local machine.
@@ -43,8 +43,12 @@ Please see sections VII - XI in the `Development setup guide` document on Canvas
 In this assignment, your task is to construct an MLP architecture for the well-known [MNIST dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset).
 
 * Read through the `material/nns_pytorch.ipynb` notebook to understand the basics of PyTorch and how to build a simple neural network.
-* Build a n-layer MLP (artificial neural network) in the `assignments/nn.ipynb` notebook.
-* See how good of a model you can build!
+* Build a n-layer MLP (artificial neural network) in the `assignments/nn.ipynb` notebook
+
+    * Create the architecture (section 4)
+    * Set the training parameters (section 5)
+    
+* See how good a model you can build!
 
 Feel free to play around with the model architecture and see how the training time/performance changes, but to begin, you can try the following:
 
@@ -64,7 +68,11 @@ In this assignment, your task is to build a CNN architecture for multi-class cla
 
 * Read through the `material/cnns_pytorch.ipynb` notebook to understand the basics of how to build a convolutional neural network.
 * Build a n-layer CNN in the `assignments/cnn.ipynb` notebook.
-* See how good of a model you can build!
+
+    * Create the architecture (section 4)
+    * Set the training parameters (section 5)
+
+* See how good a model you can build!
 
 Feel free to play around with the model architecture - add, layers, adjust layer parameters etc. - and see how the training time/performance changes. Try to get the best performance you can!
 
@@ -85,16 +93,3 @@ You can start with the following:
 - Pooling layers reduce the spatial dimensions of the feature maps and help reduce computation and overfitting. A common choice is to use 2x2 max pooling with a stride of 2, which halves the spatial dimensions.
 <br>
 <br>
-
-___
-
-
-## Submission
-
-Please see sections VII - XI in the `AIML25-dev-setup.pdf` document on Canvas for instructions on 
-
-- how to submit your assignment.
-- setting up your development environment.
-- how to work with the assignment repository.
-- setting up virtual environments.
-- using git and GitHub.
